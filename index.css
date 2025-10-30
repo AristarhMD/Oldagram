@@ -1,5 +1,116 @@
 html,
 body {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #fffcf2;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #ededed;
+}
+
+.post {
+  background-color: #fff;
+}
+
+header {
+  padding: 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+  width: 34%;
+}
+
+.user {
+  font-size: 34px;
+}
+
+.post-header {
+  padding: 10px 10px;
+
+  justify-content: start;
+  gap: 7px;
+}
+
+.post-avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.fs-l {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 13px;
+}
+
+.post-img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.post-interaction {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 10px;
+}
+
+.post-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.post-icons i {
+  font-size: 23px;
+  color: #b6b4b4;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  color: red;
+}
+
+.liked {
+  color: red !important;
+}
+
+.fa-comment:hover {
+  color: #000;
+}
+
+.fa-paper-plane:hover {
+  color: #0077b6;
+}
+.post-likes {
+  font-weight: bold;
+}
+
+.fs-m {
+  font-weight: bold;
+}
+
+.mb-s {
+  margin-bottom: 12px;
 }
